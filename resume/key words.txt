@@ -1,0 +1,8 @@
+* application service data unit (ASDU): it's a data container.
+
+* application protocol control info (APCI): it's used to control the communication and the interpretation of informations between the devices, it's a set of control codes or headers that manage the exchange of data between the communicating devices.
+
+*application protocol data unit (APDU): it represents a unit of data exchanged between applications or network entities
+
+*CRC (Cyclic Redundancy Check): it's a tchnique of error-checking in data communication.
+

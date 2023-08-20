@@ -1,0 +1,19 @@
+Name;Protocol;Id;PointName;Description;GroupType;GroupId;PointType;PointId;Scale;Offset;Units;LimitHi;LimitLo;State0;State1;State2;State3;AlarmMask;Event;Increment;FormatStatic;FormatException
+DNP3_protocol;DNP3 LAN/WAN;1;Unexpected Messages;;;*;AI;0;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Authorization Failures;;;*;AI;1;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Authentication Failures;;;*;AI;2;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Reply Timeouts;;;*;AI;3;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Rekeys due to Authentication Failure;;;*;AI;4;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Total Messages Sent;;;*;AI;5;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Total Messages Received;;;*;AI;6;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Critical Messages Sent;;;*;AI;7;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Critical Messages Received;;;*;AI;8;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Discarded Messages;;;*;AI;9;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Error Messages Sent;;;*;AI;10;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Error Messages Received;;;*;AI;11;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Successful Authentication;;;*;AI;12;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Session Key Changes;;;*;AI;13;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Failed Session Key Changes;;;*;AI;14;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Update Key Changes;;;*;AI;15;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Failed Update Key Changes;;;*;AI;16;1;0;;0;0;;;;;0;False;0;0;0
+DNP3_protocol;DNP3 LAN/WAN;1;Rekeys due to Restarts;;;*;AI;17;1;0;;0;0;;;;;0;False;0;0;0

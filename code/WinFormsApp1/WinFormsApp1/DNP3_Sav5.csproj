@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="lib\**" />
+    <EmbeddedResource Remove="lib\**" />
+    <None Remove="lib\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ical.Net" Version="4.2.0" />
+    <PackageReference Include="MySql.Data" Version="8.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="TMW.SCL">
+      <HintPath>bin\Debug\net6.0-windows\TMW.SCL.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

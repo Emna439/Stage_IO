@@ -1,0 +1,9 @@
+Simulators:
+	FreyrScada ****
+	Ignition
+	ClearScada
+	Axon
+
+Database configuration:
+	iFIX
+	mysql

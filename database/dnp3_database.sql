@@ -1,0 +1,1 @@
+SELECT * FROM data_db.data;

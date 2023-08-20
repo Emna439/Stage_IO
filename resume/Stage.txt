@@ -1,0 +1,8 @@
+1- How does dnp3 work (almost)
+2- Find simulator (found: freyrScada or ase 2000 test communication)
+3- Create database (created)
+4- .NET
+5- learn how to connect the database to the code (done)
+6- how to use source code
+7- Write code
+

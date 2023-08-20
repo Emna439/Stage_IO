@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TSMonFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Information BuildVersion="Software Version: 2.30" BuildCode="Build Code: 8339.-32499" BuildDate="Build Date: 31-oct.-2022" LicenseType="None" FileName="Untitled.monx" FileDate="2023-07-26T09:17:20.3484696+01:00" />
+  <OptionData>
+    <Options ProtocolNumber="0" IsCyclic="0" IsExitAfterSim="0" EventSim="false">
+      <ComponentData />
+    </Options>
+    <PointInfo PerAnalogInput="12" PerPulseInput="16" PerDigitalInput="8" PerMcdInput="8" PulseWrap="65536" AnalogHigh="2047" AnalogLow="-2048" />
+  </OptionData>
+  <Exchanges>
+    <Exchange Name="Data" Icon="Scan">
+      <Values />
+      <Items>
+        <ExchangeElement Direction="Req" Type="Data" DisplayFormat="Decimal" Misc="0" RepeatCount="256" Value="1" Interval="0">
+          <CSVValues DataSize="32">
+            <DataItem xsi:type="ValueObject">
+              <ValueObj xsi:type="xsd:long">0</ValueObj>
+            </DataItem>
+          </CSVValues>
+        </ExchangeElement>
+        <ExchangeElement Direction="Rsp" Type="Data" DisplayFormat="Decimal" Misc="0" RepeatCount="256" Value="1" Interval="0">
+          <CSVValues DataSize="32">
+            <DataItem xsi:type="ValueObject">
+              <ValueObj xsi:type="xsd:long">0</ValueObj>
+            </DataItem>
+          </CSVValues>
+        </ExchangeElement>
+      </Items>
+      <ExchangeKey />
+      <CommunicationType>Any</CommunicationType>
+      <ChannelID />
+      <PortNum>0</PortNum>
+      <MultiChnlLookup>-1</MultiChnlLookup>
+    </Exchange>
+  </Exchanges>
+</TSMonFile>

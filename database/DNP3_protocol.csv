@@ -1,0 +1,19 @@
+PointName;Description;GroupType;GroupId;PointType;PointId;Scale;Offset;Units;LimitHi;LimitLo;State0;State1;State2;State3;AlarmMask;Event;Increment;FormatStatic;FormatException
+Unexpected Messages;;;*;AI;0;1;0;;0;0;;;;;0;False;0;0;0
+Authorization Failures;;;*;AI;1;1;0;;0;0;;;;;0;False;0;0;0
+Authentication Failures;;;*;AI;2;1;0;;0;0;;;;;0;False;0;0;0
+Reply Timeouts;;;*;AI;3;1;0;;0;0;;;;;0;False;0;0;0
+Rekeys due to Authentication Failure;;;*;AI;4;1;0;;0;0;;;;;0;False;0;0;0
+Total Messages Sent;;;*;AI;5;1;0;;0;0;;;;;0;False;0;0;0
+Total Messages Received;;;*;AI;6;1;0;;0;0;;;;;0;False;0;0;0
+Critical Messages Sent;;;*;AI;7;1;0;;0;0;;;;;0;False;0;0;0
+Critical Messages Received;;;*;AI;8;1;0;;0;0;;;;;0;False;0;0;0
+Discarded Messages;;;*;AI;9;1;0;;0;0;;;;;0;False;0;0;0
+Error Messages Sent;;;*;AI;10;1;0;;0;0;;;;;0;False;0;0;0
+Error Messages Received;;;*;AI;11;1;0;;0;0;;;;;0;False;0;0;0
+Successful Authentication;;;*;AI;12;1;0;;0;0;;;;;0;False;0;0;0
+Session Key Changes;;;*;AI;13;1;0;;0;0;;;;;0;False;0;0;0
+Failed Session Key Changes;;;*;AI;14;1;0;;0;0;;;;;0;False;0;0;0
+Update Key Changes;;;*;AI;15;1;0;;0;0;;;;;0;False;0;0;0
+Failed Update Key Changes;;;*;AI;16;1;0;;0;0;;;;;0;False;0;0;0
+Rekeys due to Restarts;;;*;AI;17;1;0;;0;0;;;;;0;False;0;0;0

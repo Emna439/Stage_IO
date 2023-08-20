@@ -1,0 +1,42 @@
+	Introduction
+* dnp3 uses 27 fonction codes to assure the communication between the master and the remote
+* dnp3 is an object model that greatly reduces the data mapping compared to less orientaed object oriented protocols
+* dnp3 uses a master/remote model
+* the master provides an interface between the human network and the monotoring system
+* the remote provides an interface between the master and the monotored system
+* the master and remote use a libraby of common objects to exchange information
+* a dnp3 point is defined by its point type (analog input,binary output,counter) and point number (address), you configure the properties for each point type using the fields on the appropriate DNP3 Point form( https://tprojects.schneider-electric.com/GeoSCADAHelp/Geo%20SCADA%202020/Content/DNP3DriverGuide/PointsUsedonDNP3Outstations.htm )
+
+	How do dnp3 elements communicate
+* Some of these 27 functions enable the master to change the configuration of the remote, others enable it to request and recieve status
+information from the remote
+* Since the unsolicited message is also capable of being initiated by the remote, it is used to report alarms that the master recieves 
+immediately instead of waiting for the next request
+
+	Understanding the dnp3 object library
+* the dnp3 framework includes a library of objects that are typically used in SCADA systems.
+* the objects includes such things as binary inputs that are used to determine the charactristics of a two state equipements (power is 
+on or off - panel open or closed) or analog inputs that include a range of values (fan speed - voltage).
+* without this framework of common objects, manifacturers must develop their own model for reporting status and providing control 
+capabilities.
+* objects in the dnp3 library are divided into groups and variations.
+
+	Understanding the dnp3 message structure
+* dnp3 is a packed-oriented protocol wich means a packet of bytes are used to exchange information, the packet contains header, data and
+checksum bytes.
+
+	Understanding layered communication
+* the layers are : link,transport,application.
+* in the application layer, we combine an application service data unit (ASDU) and an application protocol control info (APCI) block to make an application protocol data unit (APDU).
+* the transport layer breaks the APDU into segments with a max size of 16 bytes and packages them with an 8-bit transport control header and 16-bit CRC seperators into a transport frame.
+* the link layer adds a header the control and addressing information to prepare the packet for delivery to a specific destination.
+* if the packet will be sent over a LAN/WAN, the three DNP3 layers are rolled up into the application layer.
+
+
+
+
+
+
+
+
+

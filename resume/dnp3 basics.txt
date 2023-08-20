@@ -1,0 +1,7 @@
+	Introduction
+* dnp3 uses 27 fonction codes to assure the communication between the master and the remote
+* dnp3 is an object model that greatly reduces the data mapping compared to less orientaed object oriented protocols
+* dnp3 uses a master/remote model
+* the master provides an interface between the human network and the monotoring system
+* the remote provides an interface between the master and the monotored system
+* the master and remote use a libraby of common objects to exchange information

@@ -1,0 +1,6 @@
+ S.No ,          DNP3 Group Id    , Index Number,      Value             ,--------------.....................................Quality Bits.....................................--------------,             Time Stamp             ,       Class            ,                  Control Model           , SBO TimeOut ,  Analog Deadband Value   ,  Analog Storage Type   
+1,BINARY_INPUT,0,1,ONLINE REMOTE_FORCED LOCAL_FORCED CHATTER_FILTER , 18:28:10:198 19/07/2023 ,CLASS_ONE,STATUS_ONLY,0,0,NOT_APPLICABLE
+2,ANALOG_INPUT,0,2,ONLINE , 18:28:45:026 19/07/2023 ,CLASS_TWO,STATUS_ONLY,0,0,AS_FLOAT
+3,COUNTER_INPUT,0,5,ONLINE , 18:29:07:492 19/07/2023 ,CLASS_ONE,STATUS_ONLY,0,0,NOT_APPLICABLE
+4,FRCOUNTER_INPUT,0,0,ONLINE, 18:26:41:772 19/07/2023 ,CLASS_ONE,STATUS_ONLY,0,0,NOT_APPLICABLE
+5,DOUBLE_INPUT,0,0,ONLINE, 18:26:41:772 19/07/2023 ,CLASS_ONE,STATUS_ONLY,0,0,NOT_APPLICABLE
